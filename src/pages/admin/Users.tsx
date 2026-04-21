@@ -7,9 +7,9 @@ import {
   TableHead, 
   TableHeader, 
   TableRow 
-} from '@/components/ui/table';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+} from '@/components/ui/Table';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card';
+import { Button } from '@/components/ui/Button';
 import { 
   Plus, 
   Search, 
@@ -22,7 +22,7 @@ import {
   History,
   BookOpen
 } from 'lucide-react';
-import { Input } from '@/components/ui/input';
+import { Input } from '@/components/ui/Input';
 import { 
   Dialog, 
   DialogContent, 
@@ -31,9 +31,9 @@ import {
   DialogTrigger,
   DialogFooter,
   DialogDescription
-} from '@/components/ui/dialog';
-import { Label } from '@/components/ui/label';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+} from '@/components/ui/Dialog';
+import { Label } from '@/components/ui/Label';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/Select';
 
 export default function AdminUsers() {
   const [users, setUsers] = useState<any[]>([]);

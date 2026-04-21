@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/ui/Card';
+import { Button } from '@/components/ui/Button';
 import { 
   ClipboardList, 
   Clock, 
@@ -11,9 +11,9 @@ import {
   Plus,
   ArrowLeft
 } from 'lucide-react';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Checkbox } from '@/components/ui/checkbox';
+import { Input } from '@/components/ui/Input';
+import { Label } from '@/components/ui/Label';
+import { Checkbox } from '@/components/ui/Checkbox';
 import { useNavigate } from 'react-router-dom';
 
 export default function GuruCreateExam() {

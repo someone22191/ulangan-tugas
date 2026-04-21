@@ -93,11 +93,11 @@ export default function AdminUsers() {
           <p className="text-muted-foreground">Kelola hak akses untuk Admin, Guru, dan Siswa.</p>
         </div>
         <Dialog open={isAddOpen} onOpenChange={setIsAddOpen}>
-          <DialogTrigger asChild>
+          <DialogTrigger render={
             <Button className="gap-2 rounded-full h-11 px-6 shadow-lg shadow-primary/20">
               <UserPlus size={18} /> Tambah User Baru
             </Button>
-          </DialogTrigger>
+          } />
           <DialogContent>
             <DialogHeader>
               <DialogTitle>Tambah Pengguna Baru</DialogTitle>

@@ -97,11 +97,11 @@ export default function GuruQuestions() {
           <p className="text-muted-foreground">Kumpulan soal pilihan ganda yang dapat digunakan dalam ujian.</p>
         </div>
         <Dialog open={isAddOpen} onOpenChange={setIsAddOpen}>
-          <DialogTrigger asChild>
+          <DialogTrigger render={
             <Button className="gap-2 h-11 px-6 rounded-full shadow-lg shadow-primary/20">
               <Plus size={18} /> Tambah Soal Baru
             </Button>
-          </DialogTrigger>
+          } />
           <DialogContent className="max-w-2xl">
             <DialogHeader>
               <DialogTitle>Buat Soal Pilihan Ganda</DialogTitle>

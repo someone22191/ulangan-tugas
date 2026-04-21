@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase';
-import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/components/ui/Card';
+import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/components/ui/card';
 import { 
   Users, 
   BookOpen, 
@@ -10,7 +10,7 @@ import {
   ArrowRight,
   Plus
 } from 'lucide-react';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
 
 export default function Dashboard({ session }: { session: any }) {

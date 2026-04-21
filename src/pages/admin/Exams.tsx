@@ -7,9 +7,9 @@ import {
   TableHead, 
   TableHeader, 
   TableRow 
-} from '@/components/ui/Table';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card';
-import { Button } from '@/components/ui/Button';
+} from '@/components/ui/table';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 import { 
   ClipboardList, 
   Search, 
@@ -20,7 +20,7 @@ import {
   Clock,
   CheckCircle2
 } from 'lucide-react';
-import { Input } from '@/components/ui/Input';
+import { Input } from '@/components/ui/input';
 
 export default function AdminExams() {
   const [exams, setExams] = useState<any[]>([]);

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card';
-import { Button } from '@/components/ui/Button';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 import { 
   Plus, 
   Search, 
@@ -12,7 +12,7 @@ import {
   FileText,
   Filter
 } from 'lucide-react';
-import { Input } from '@/components/ui/Input';
+import { Input } from '@/components/ui/input';
 import { 
   Dialog, 
   DialogContent, 
@@ -20,9 +20,9 @@ import {
   DialogTitle, 
   DialogTrigger,
   DialogFooter
-} from '@/components/ui/Dialog';
-import { Label } from '@/components/ui/Label';
-import { Textarea } from '@/components/ui/Textarea';
+} from '@/components/ui/dialog';
+import { Label } from '@/components/ui/label';
+import { Textarea } from '@/components/ui/textarea';
 
 export default function GuruQuestions() {
   const [questions, setQuestions] = useState<any[]>([]);

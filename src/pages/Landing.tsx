@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { Button } from '@/components/core-ui/button';
+import { Button } from '@/components/elements/Button';
 import { School, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Logo from '@/components/layout/Logo';

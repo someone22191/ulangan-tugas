@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/core-ui/card';
-import { Button } from '@/components/core-ui/button';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/elements/Card';
+import { Button } from '@/components/elements/Button';
 import { 
   ClipboardList, 
   Clock, 

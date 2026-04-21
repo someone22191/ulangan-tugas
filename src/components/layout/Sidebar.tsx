@@ -10,7 +10,7 @@ import {
   ChevronRight,
   School
 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/core-ui/button';
 import { cn } from '@/lib/utils';
 import { useState, useEffect } from 'react';
 import Logo from '@/components/layout/Logo';
